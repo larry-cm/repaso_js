@@ -64,5 +64,12 @@ el primero es el elemento, el segundo la posición en la que esta parada en el a
 
 - `filter` : crea un array con los elementos que cumplan la condición, también pueden tener varias condiciones.
 
-- `` :
+> [!IMPORTANT]
+> Los parámetros de esta función están declarados sobre ella
+
+- `reduce` : obtiene dos parámetros en donde por cada elemento del  array obtienes:
+  1. el elemento anterior de la posición actual
+
+  2. la posición actual
+
 <!--## Ejercicios de lógica propuestos por Deepseeck -->
