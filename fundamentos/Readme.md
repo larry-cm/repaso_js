@@ -41,6 +41,8 @@ Estructuras de datos que guarda los valores en una posición exacta conocida com
 
 - `findIndexOf` : busca el primer elemento que cumpla las o la condición y me da la posición
 
+- `reverse` : devuelve el array con los elementos ordenado con los index al revés
+
 - `slice` : tiene dos parámetros opcionales donde :
   
   1. es el inicio del array a retornar pero si solo se pasa un parámetro retorna desde esa posición hasta la ultima del array
@@ -54,6 +56,14 @@ Estructuras de datos que guarda los valores en una posición exacta conocida com
 
   3. el tercer y los demás son los que serán insertados en el array
 
+> [!WARNING]
+> este método devuelve un array no lo modifica
+
+- `with` : recibe dos parámetros donde :
+  1. es la posición en la que se actualiza el nuevo array
+
+  2. es el valor que va a modificar la posición del primer parámetro.
+
 ### Métodos que iteran sobre nuestros arrays
 
  comúnmente estos elementos se trabajan con un callback que tiene tres parámetros en donde
@@ -62,7 +72,9 @@ el primero es el elemento, el segundo la posición en la que esta parada en el a
 
 - `every` : por cada elemento puedes verificar una o varias condiciones y si todos los elementos cumplen la condición el método devolverá true de lo contrario false
 
-- `filter` : crea un array con los elementos que cumplan la condición, también pueden tener varias condiciones.
+- `filter` : crea un array con los elementos que cumplan la condición, también pueden tener varias condiciones
+
+- `some` : revisa una o varias condicionales y mientras alguna sea verdadera devuelve true o falso de lo contrario
 
 > [!IMPORTANT]
 > Los parámetros de esta función están declarados sobre ella
