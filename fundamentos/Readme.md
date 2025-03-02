@@ -39,15 +39,19 @@ Estructuras de datos que guarda los valores en una posición exacta conocida com
 
 - `find` : busca el primer elemento que cumpla las o la condición y me lo da
 
-- `findIndexOf` : busca el primer elemento que cumpla las o la condición y me da la posición
-
 - `reverse` : devuelve el array con los elementos ordenado con los index al revés
+
+> [!IMPORTANT]
+> Los parámetros de esta función están declarados sobre ella
 
 - `slice` : tiene dos parámetros opcionales donde :
   
   1. es el inicio del array a retornar pero si solo se pasa un parámetro retorna desde esa posición hasta la ultima del array
 
   2. el final del array a retornar
+
+> [!IMPORTANT]
+> Los parámetros de esta función están declarados sobre ella
 
 - `splice` : recibe tres parámetros donde :
   1. la posición desde donde se empieza a eliminar
@@ -70,6 +74,8 @@ Estructuras de datos que guarda los valores en una posición exacta conocida com
 
 el primero es el elemento, el segundo la posición en la que esta parada en el array en ese momento y en tercer parámetro el array por el que se itera
 
+- `map` : devuelve un array nuevo con los elementos que cumplan las condiciones que se le pasan
+
 - `every` : por cada elemento puedes verificar una o varias condiciones y si todos los elementos cumplen la condición el método devolverá true de lo contrario false
 
 - `filter` : crea un array con los elementos que cumplan la condición, también pueden tener varias condiciones
@@ -79,9 +85,12 @@ el primero es el elemento, el segundo la posición en la que esta parada en el a
 > [!IMPORTANT]
 > Los parámetros de esta función están declarados sobre ella
 
-- `reduce` : obtiene dos parámetros en donde por cada elemento del  array obtienes:
-  1. el elemento anterior de la posición actual
+- `reduce` : obtiene dos parámetros en donde :
+  1. es una callback con dos parámetros donde :
+      - el primero es el acumulador
+      - el segundo es el elemento actual
 
-  2. la posición actual
+  2. es el valor inicial del acumulador:
 
+- `findIndex` : un callback que busca el primer elemento que cumpla las o la condición y me da la posición
 <!--## Ejercicios de lógica propuestos por Deepseeck -->
