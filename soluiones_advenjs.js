@@ -1,15 +1,3 @@
-const job = {
-  frameWorksUses: {
-    1: ['react'],
-    2: ['laravel'],
-    3: ['angular']
-  },
-  libraries: {
-    1: ['bootstrap'],
-    2: ['tailwind']
-  }
-}
-
 // ejercicios  1 de programacion
 const removeClone = (list = [1]) => {
   return list.sort((a, b) => a - b).filter((v, i) => list[i + 1] !== v)
