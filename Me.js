@@ -9,3 +9,4 @@ const MeInteresting = {
     2: ['tailwind']
   }
 }
+module.exports = MeInteresting

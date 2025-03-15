@@ -1,17 +1,19 @@
 {
   "name": "aprendizaje-js",
   "version": "1.0.0",
-  "description": "estoy haciendo unas pruebas de logica de algoritmos en js por ahora!",
-  "main": "librerias.js",
+  "description": "estoy haciendo unas pruebas de lógica de algoritmos en js por ahora!",
+  "main": "advendjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "larry",
+  "author": "Larry",
   "license": "MIT",
   "devDependencies": {
-    "standard": "^17.1.2"
+    "standard": "17.1.2"
   },
   "eslintConfig": {
-    "extends":["./node_modules/standard/eslintrc.json"]
+    "extends": [
+      "./node_modules/standard/eslintrc.json"
+    ]
   }
 }
