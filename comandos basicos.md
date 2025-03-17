@@ -1,4 +1,4 @@
-# Comandos basicos de la terminal (repaso)
+# Comandos básicos de la terminal (repaso)
 
 > __Unos de los comandos mas importantes para desarrolladores son los siguientes__
 > [!NOTE]
@@ -20,6 +20,6 @@ Recuerden escribir los comando en minúsculas para que funcionen correctamente
 
 `rm -r.txt` __: elimina las carpetas que prosigan al comando__
 
-`cp <nombre_archivo> <ruta|nuevo_nombre>` __: lo usamos para copiar un archivo o moverlo cuando en el segundo parametro se le pasa una ruta__
+`cp <nombre_archivo> <ruta|nuevo_nombre>` __: lo usamos para copiar un archivo o moverlo cuando en el segundo parámetro se le pasa una ruta__
 
-`mv <nombre_archivo> <ruta|nuevo_nombre>` __: lo usamos para  moverlo el segundo parametro se le pasa una ruta__
+`mv <nombre_archivo> <ruta|nuevo_nombre>` __: lo usamos para  moverlo el segundo parámetro se le pasa una ruta__

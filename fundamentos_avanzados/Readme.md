@@ -11,7 +11,7 @@ en este modulo veremos cosas como promesas, async, await, request, sobre erres y
 - La palabra clave super llama al constructor() de una clase padre.
 - Los métodos estáticos se llaman en la clase, pero no en instancias de la clase.
 
-[mirar los  ejemplos]('clases.js')
+[ver algunos ejemplos](./clases.js)
 
 ## los módulos en js CommonJs & ESmodules
 
@@ -47,3 +47,40 @@ import {x} from 'ruta_del_archivo_o_modulo'
 ```
 
 ## Promesas
+
+Son objetos que representan un resultado esperado en una operación
+tienen tres estados: __resolved, rejected, pending.__
+
+Tienen tres métodos principales para manejarse:
+estos reciben una función que por __parámetro__ se pasa el objeto que __se evalúa como el mensaje de error o la respuesta.__
+
+>[TIP] *los métodos se pueden concatenar tantos como queramos*
+>[WARNING] ¡menos en el caso del catch que ejecutara el primer método!*
+
+En el caso de finally el parámetro es undefined pero el código de la función es el que se ejecuta siempre.
+
+```javascript
+    .then(res => res) // para cuando es resulta
+    .then(res => res) 
+    .catch(err => err) // para cuando es fallida
+    .finally(always => always) // se ejecuta siempre que se termina de ejecutar la promesa
+    .finally(always => always) 
+```
+
+## async await de js
+
+la asincronía y espera de datos es una manera mejor de manejar promesas anidadas para facilitar la estructuración de los datos y no anidar promesas dentro de otras
+
+los await se usan solo en funciones asíncronas que se pueden crear de las siguientes maneras
+>[TIP] *una función asíncrona devuelve una promesa sea o no sea asíncrono el contenido de la función*
+
+```javascript
+
+async function dataFetch(){}
+dataFetch()
+const dataFetch2 = async () => {}
+dataFetch2()
+```
+
+el operador await espera el resultado resuelto de una promesa una vez la promesa sea resuelta en un tiempo indeterminado
+>[TIP] *el await detiene o para la ejecución de nuestro código asíncrono hasta esperar el resultado de la promesa*
