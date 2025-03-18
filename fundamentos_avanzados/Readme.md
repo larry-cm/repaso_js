@@ -82,5 +82,8 @@ const dataFetch2 = async () => {}
 dataFetch2()
 ```
 
-el operador await espera el resultado resuelto de una promesa una vez la promesa sea resuelta en un tiempo indeterminado
 >[TIP] *el await detiene o para la ejecución de nuestro código asíncrono hasta esperar el resultado de la promesa*
+
+el operador await espera el resultado resuelto de una promesa una vez la promesa sea resuelta en un tiempo indeterminado.
+
+dicho operador no es cociente de si la promesa puede ser reject por eso ahi que envolver  los await en un try/catch
