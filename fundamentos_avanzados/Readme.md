@@ -11,7 +11,7 @@ en este modulo veremos cosas como promesas, async, await, request, sobre erres y
 - La palabra clave super llama al constructor() de una clase padre.
 - Los métodos estáticos se llaman en la clase, pero no en instancias de la clase.
 
-[**ver algunos ejemplos realizador por @larry-cm**](./clases.js)
+[**ver algunos ejemplos realizador por **](./clases.js) **@larry-cm**
 
 ## los módulos en js CommonJs & ESmodules
 
@@ -54,8 +54,10 @@ tienen tres estados: **resolved, rejected, pending.**
 Tienen tres métodos principales para manejarse:
 estos reciben una función que por **parámetro** se pasa el objeto que **se evalúa como el mensaje de error o la respuesta.**
 
-> [!TIP] *los métodos se pueden concatenar tantos como queramos*
-> [!WARNING] ¡menos en el caso del catch que ejecutara el primer método!*
+> [!TIP]
+> *los métodos se pueden concatenar tantos como queramos*
+> [!WARNING]
+> *¡menos en el caso del catch que ejecutara el primer método!*
 
 En el caso de finally el parámetro es undefined pero el código de la función es el que se ejecuta siempre.
 
@@ -72,7 +74,8 @@ En el caso de finally el parámetro es undefined pero el código de la función 
 la asincronía y espera de datos es una manera mejor de manejar promesas anidadas para facilitar la estructuración de los datos y no anidar promesas dentro de otras
 
 los await se usan solo en funciones asíncronas que se pueden crear de las siguientes maneras
-> [!TIP] *una función asíncrona devuelve una promesa sea o no sea asíncrono el contenido de la función*
+> [!TIP]
+> *una función asíncrona devuelve una promesa sea o no sea asíncrono el contenido de la función*
 
 ```javascript
 
@@ -82,7 +85,8 @@ const dataFetch2 = async () => {}
 dataFetch2()
 ```
 
-> [!TIP] *el await detiene o para la ejecución de nuestro código asíncrono hasta esperar el resultado de la promesa*
+> [!TIP]
+> *el await detiene o para la ejecución de nuestro código asíncrono hasta esperar el resultado de la promesa*
 
 el operador await espera el resultado resuelto de una promesa una vez la promesa sea resuelta en un tiempo indeterminado.
 
