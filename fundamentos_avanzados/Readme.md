@@ -55,6 +55,9 @@ Tienen tres métodos principales para manejarse:
 estos reciben una función que por **parámetro** se pasa el objeto que **se evalúa como el mensaje de error o la respuesta.**
 
 > [!TIP]
+> el método then(). recibe como segundo parámetro una función para actuar como catch
+
+> [!TIP]
 > *los métodos se pueden concatenar tantos como queramos*
 
 > [!WARNING]
@@ -92,3 +95,14 @@ dataFetch2()
 el operador await espera el resultado resuelto de una promesa una vez la promesa sea resuelta en un tiempo indeterminado.
 
 dicho operador no es cociente de si la promesa puede ser reject por eso ahi que envolver  los await en un try/catch
+
+## Request
+
+son las peticiones que el navegador realiza a los diferentes servidores o hostname de dichos servidores para obtener recursos que usaremos en la pagina.
+
+existen diferentes métodos de peticiones tales como GET, POST, PUT, and DELETE.
+para obtener, meter, actualizar y eliminar respectivamente.
+
+algunas de nuestras peticiones necesitan un solo parámetro para indicarle la ruta a la que va a mirar otros necesitan otro parámetro con diferentes propiedades dependiendo de la acción que se valla a realizar
+
+**Tenemos mas ejemplos en el siguiente [archivo de practica](./request.js)**

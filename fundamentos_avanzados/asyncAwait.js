@@ -17,5 +17,5 @@ const e = new Promise((resolve, reject) => {
 
 seeAsync()
   .then(e => console.log(e))
-  .then(e => console.log('es un valor asíncrono lo de arriba'))
-console.log('hola')
+e
+  .then(e => console.log(e))
