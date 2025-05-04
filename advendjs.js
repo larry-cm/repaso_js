@@ -1,9 +1,9 @@
-// ejercicios  1 de programacion
+// ejercicios  1 de programación
 const removeClone = (list = [1]) => {
   return list.sort((a, b) => a - b).filter((v, i) => list[i + 1] !== v)
 }
 
-// ejercicios  2 de programacion
+// ejercicios  2 de programación
 function createFrame(names = ['']) {
   const ancho = names.map(e => e.length).sort((a, b) => a - b).at(-1)
   const line = '*'.repeat(ancho + 4)

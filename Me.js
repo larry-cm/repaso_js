@@ -1,10 +1,10 @@
 const MeInteresting = {
-  frameWorksUses: {
+  frameWorks: {
     1: ['react'],
     2: ['astro'],
     3: ['...']
   },
-  libraries: {
+  stylesLibraries: {
     1: ['bootstrap'],
     2: ['tailwind']
   }
