@@ -11,7 +11,7 @@ en este modulo veremos cosas como promesas, async, await, request, sobre erres y
 - La palabra clave super llama al constructor() de una clase padre.
 - Los métodos estáticos se llaman en la clase, pero no en instancias de la clase.
 
-[**ver algunos ejemplos realizador por **](./clases.js) **@larry-cm**
+[**ver algunos ejemplos de @larry-cm**](./clases.js)
 
 ## los módulos en js CommonJs & ESmodules
 
