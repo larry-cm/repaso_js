@@ -56,10 +56,8 @@ estos reciben una función que por **parámetro** se pasa el objeto que **se eva
 
 > [!TIP]
 > el método then(). recibe como segundo parámetro una función para actuar como catch
-
 > [!TIP]
 > *los métodos se pueden concatenar tantos como queramos*
-
 > [!WARNING]
 > *¡menos en el caso del catch que ejecutara el primer método!*
 

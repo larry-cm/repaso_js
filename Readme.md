@@ -1,25 +1,18 @@
 # Comandos básicos de la terminal (repaso)
 
-> __Unos de los comandos mas importantes para desarrolladores son los siguientes__
+Algunos de los comandos más importantes para desarrolladores son los siguientes:
+
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
+> Información útil que los usuarios deben conocer, incluso al leer rápidamente el contenido.
 
-Recuerden escribir los comando en minúsculas para que funcionen correctamente
+Recuerden escribir los comandos en minúsculas para que funcionen correctamente.
 
-`pwd` __: imprimir el directorio donde nos encontramos.__
-
-`ls` __: imprime archivos o carpetas dentro del cual estamos trabajando.__
-
-`mkdir` __: crea una carpeta llamada 'carpetaPrueba' en el directorio que estamos situados.__
-
-`cd carpetaPrueba` __: podemos usarla para movernos entre carpetas, por ejemplo al usar cd carpetaPrueba cambiamos de la carpeta actual hacia "carpetaPrueba".__
-
-`touch name.{txt,js,ts}`  __: crea un archivo con nombre que prosigue al comando.__
-
-`rm archivo.txt` __: elimina el archivo que prosigue al comando__
-
-`rm -r.txt` __: elimina las carpetas que prosigan al comando__
-
-`cp <nombre_archivo> <ruta|nuevo_nombre>` __: lo usamos para copiar un archivo o moverlo cuando en el segundo parámetro se le pasa una ruta__
-
-`mv <nombre_archivo> <ruta|nuevo_nombre>` __: lo usamos para  moverlo el segundo parámetro se le pasa una ruta__
+- `pwd`: imprime el directorio en el que nos encontramos.
+- `ls`: muestra los archivos o carpetas dentro del directorio actual.
+- `mkdir carpetaPrueba`: crea una carpeta llamada `carpetaPrueba` en el directorio actual.
+- `cd carpetaPrueba`: permite moverse entre carpetas; por ejemplo, al usar `cd carpetaPrueba` cambiamos de la carpeta actual a "carpetaPrueba".
+- `touch nombre.{txt,js,ts}`: crea un archivo con el nombre y extensión especificados.
+- `rm archivo.txt`: elimina el archivo indicado.
+- `rm -r carpeta`: elimina la carpeta indicada y su contenido de forma recursiva.
+- `cp <nombre_archivo> <ruta|nuevo_nombre>`: copia un archivo a una nueva ubicación o con un nuevo nombre.
+- `mv <nombre_archivo> <ruta|nuevo_nombre>`: mueve o renombra un archivo.
